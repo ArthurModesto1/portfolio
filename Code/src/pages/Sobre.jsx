@@ -40,17 +40,24 @@ function Sobre() {
 
         <div className="skills-section">
           <h2>Habilidades</h2>
-          <p style={{ textAlign: 'center' }}>
-  Lista de tecnologias, ferramentas e competências desenvolvidas durante a formação acadêmica e projetos realizados.
-</p>
+          <p style={{ textAlign: 'center' }}>Lista de tecnologias, ferramentas e competências desenvolvidas durante a formação acadêmica e projetos realizados.
+
+          </p>
           <div className="skills-grid">
             {skills.map((skill, index) => (
               <div key={index} className="skill-item">
                 {skill}
+                </div>
+              ))}
               </div>
-            ))}
-          </div>
-        </div>
+              </div>
+              <div className="experience-section">
+                <h2>Minhas Experiências</h2>
+                <p className="experience-description">
+                  Experiências profissionais e acadêmicas vividas pelo autor, incluindo projetos desenvolvidos, 
+                  competições, hackathons e outras atividades relevantes que contribuíram para seu desenvolvimento
+                  na área de tecnologia.</p> 
+              </div>
       </div>
     </div>
   );

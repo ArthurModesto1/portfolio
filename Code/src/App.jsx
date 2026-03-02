@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
+import PDF from './pages/PDF';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="sobre" element={<Sobre />} />
           <Route path="projetos" element={<Projetos />} />
+          <Route path="pdf" element={<PDF />} />
         </Route>
       </Routes>
     </Router>

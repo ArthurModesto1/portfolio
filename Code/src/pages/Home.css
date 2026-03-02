@@ -1,15 +1,20 @@
 .home {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  min-height: 120vh;
 }
 
 .hero-section {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+  padding: 3rem 2rem;
+
+  background-color: rgba(26, 26, 26, 0.8);
+
+
+  border-radius: 16px;
+  border: none;
+
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
 
 .hero-title {
@@ -59,3 +64,5 @@
     font-size: 1rem;
   }
 }
+
+
