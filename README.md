@@ -127,7 +127,7 @@ projeto/
 ## 🚀 Como Executar
 
 ```bash
-npm install
+npm install @splinetool/react-spline
 npm run dev
 ```
 
