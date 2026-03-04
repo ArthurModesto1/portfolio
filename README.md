@@ -6,9 +6,12 @@
 
 ## 🚧 Status do Projeto
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Versão](https://img.shields.io/badge/versão-0.1-blue)
+## 🚧 Status do Projeto
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento%20ativo-yellow)
+![Versão](https://img.shields.io/badge/versão-0.2-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
+![Funcionalidades implementadas](https://img.shields.io/badge/funcionalidades-50%25-lightgrey)
 
 ---
 
@@ -47,7 +50,15 @@
 
 ## 📝 Sobre o Projeto
 
-Aplicação web desenvolvida para apresentar informações profissionais de forma organizada, com navegação entre páginas e estrutura reutilizável para diferentes usuários.
+Portfólio web profissional desenvolvido como projeto acadêmico para a disciplina **Laboratório de Desenvolvimento de Software**.  
+A aplicação apresenta uma estrutura moderna e reutilizável para exibição de informações profissionais, projetos e habilidades.  
+
+**Principais características:**
+
+- Suporte a múltiplos idiomas (Português e Inglês)  
+- Geração de PDF com os dados do portfólio  
+- Design moderno com backgrounds 3D interativos  
+- Estrutura escalável e organizada para fácil manutenção e personalização  
 
 ---
 
@@ -74,51 +85,90 @@ Aplicação web desenvolvida para apresentar informações profissionais de form
 
 ## 🛠 Tecnologias
 
-- HTML, CSS, JavaScript  
-- React  
-- React Router  
-- Vite 
+**Frontend:**
+
+- React 19.2.0 – Biblioteca JavaScript para construção de interfaces  
+- React Router DOM 7.13.1 – Gerenciamento de rotas e navegação entre páginas  
+- React i18next 16.5.4 – Suporte a internacionalização (PT/EN)  
+- Vite 7.3.1 – Ferramenta de build e servidor de desenvolvimento  
+
+**Bibliotecas:**
+
+- jsPDF 4.2.0 – Geração de documentos PDF do portfólio  
+- @splinetool/react-spline 4.1.0 – Criação de backgrounds 3D interativos  
+
+**Dev Tools:**
+
+- ESLint 9.39.1 – Linter para padronização e qualidade de código  
+- @vitejs/plugin-react 5.1.1 – Plugin React para integração com Vite  
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-```
-projeto/
+```portfolio-app/
 ├── public/                    # Arquivos estáticos públicos
-│   └── vite.svg             # Logo do Vite
+│   └── vite.svg              # Logo do Vite
 ├── src/                      # Código-fonte principal
-│   ├── components/           # Componentes reutilizáveis
-│   │   ├── Header.jsx        # Barra de navegação superior
-│   │   ├── Header.css        # Estilos do Header
-│   │   ├── Footer.jsx        # Rodapé da aplicação
-│   │   ├── Footer.css        # Estilos do Footer
-│   │   ├── Layout.jsx        # Layout principal (Header + Outlet + Footer)
-│   │   └── Layout.css        # Estilos do Layout
-│   ├── pages/                # Páginas principais
-│   │   ├── Home.jsx          # Página inicial
-│   │   ├── Home.css          # Estilos da Home
-│   │   ├── Sobre.jsx         # Página "Sobre Mim"
-│   │   ├── Sobre.css         # Estilos da página Sobre
-│   │   ├── Projetos.jsx      # Página de projetos
-│   │   └── Projetos.css      # Estilos da página Projetos
-│   ├── assets/               # Imagens e arquivos de mídia
-│   │   └── react.svg         # Logo do React
-│   ├── App.jsx               # Componente principal (Roteamento)
-│   ├── App.css               # Estilos da aplicação
-│   ├── main.jsx              # Ponto de entrada React
-│   └── index.css             # Estilos globais
-├── eslint.config.js          # Configuração do ESLint (qualidade do código)
-├── index.html                # Template HTML principal
-├── package.json              # Dependências do projeto
-└── vite.config.js            # Configuração do Vite
+│   ├── assets/               # Recursos estáticos
+│   │   ├── css/             # Folhas de estilo
+│   │   │   ├── App.css
+│   │   │   ├── Home.css
+│   │   │   ├── Sobre.css
+│   │   │   ├── Projetos.css
+│   │   │   ├── PDF.css
+│   │   │   └── index.css
+│   │   └── img/             # Imagens
+│   │       ├── react.svg
+│   │       └── user.png
+│   ├── components/          # Componentes reutilizáveis
+│   │   ├── Header.jsx       # Barra de navegação
+│   │   ├── Header.css
+│   │   ├── Footer.jsx       # Rodapé com contatos
+│   │   ├── Footer.css
+│   │   ├── Layout.jsx       # Layout principal
+│   │   ├── Layout.css
+│   │   ├── SplineBackground.jsx  # Fundo 3D interativo
+│   │   └── SplineBackground.css
+│   ├── pages/               # Páginas da aplicação
+│   │   ├── Home.jsx         # Página inicial
+│   │   ├── Home.css
+│   │   ├── Sobre.jsx        # Página sobre (PT/EN)
+│   │   ├── Sobre.css
+│   │   ├── Projetos.jsx     # Listagem de projetos
+│   │   ├── Projetos.css
+│   │   ├── PDF.jsx          # Geração de PDF
+│   │   ├── PDF.css
+│   │   ├── Contato.jsx      # Formulário de contato
+│   │   └── Contato.css
+│   ├── data/                # Dados do portfólio
+│   │   └── portfolioData.js # Informações centralizadas
+│   ├── locales/             # Arquivos de tradução
+│   │   ├── pt.json          # Traduções português
+│   │   └── en.json          # Traduções inglês
+│   ├── App.jsx              # Componente raiz
+│   ├── App.css
+│   ├── main.jsx             # Ponto de entrada
+│   ├── index.css            # Estilos globais
+│   └── i18n.js              # Configuração i18next
+├── .env.example             # Exemplo de variáveis de ambiente
+├── .gitignore               # Arquivos ignorados pelo Git
+├── .hintrc                  # Configuração de hints
+├── eslint.config.js         # Configuração ESLint
+├── index.html               # HTML principal
+├── package.json             # Dependências do projeto
+├── package-lock.json        # Lock de dependências
+├── README.md                # Documentação do projeto
+└── vite.config.js           # Configuração Vite
+
 ```
 
 ## 📐 Estrutura das Páginas
 
 - **Home:** Página inicial com apresentação e navegação  
 - **Sobre mim:** Informações detalhadas e habilidades  
-- **Projetos:** Listagem dos projetos desenvolvidos  
+- **Projetos:** Listagem dos projetos desenvolvidos
+- **PDF:** Geração do PDF com informações do portfólio
 - **Header:** Navegação entre páginas  
 - **Footer:** Contato e links adicionais  
 
@@ -127,7 +177,7 @@ projeto/
 ## 🚀 Como Executar
 
 ```bash
-npm install @splinetool/react-spline
+npm install @splinetool/react-spline jspdf
 npm run dev
 ```
 
