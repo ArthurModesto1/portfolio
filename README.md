@@ -6,8 +6,6 @@
 
 ## 🚧 Status do Projeto
 
-## 🚧 Status do Projeto
-
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento%20ativo-yellow)
 ![Versão](https://img.shields.io/badge/versão-0.2-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
