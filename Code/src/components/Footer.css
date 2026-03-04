@@ -84,9 +84,19 @@
 }
 
 @media (max-width: 768px) {
+  .footer .container {
+    padding: 0 1rem;
+  }
+
   .footer-content {
     flex-direction: column;
     text-align: center;
+    gap: 2rem;
+  }
+
+  .contact-info h3,
+  .social-links h3 {
+    font-size: 1rem;
   }
 
   .contact-links {
@@ -98,8 +108,20 @@
     flex-wrap: wrap;
   }
 
+  .contact-link,
+  .social-link {
+    font-size: 0.9rem;
+  }
+
   .contact-link:hover,
   .social-link:hover {
     transform: scale(1.05);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-link span,
+  .social-link span {
+    font-size: 0.85rem;
   }
 }

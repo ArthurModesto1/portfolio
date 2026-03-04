@@ -24,7 +24,7 @@ function SplineBackground() {
       <Suspense fallback={<div className="spline-loading">Loading...</div>}>
         <Spline
           ref={splineRef}
-          scene="https://prod.spline.design/wB7KwI0tQRCbZaKf/scene.splinecode"
+          scene="https://prod.spline.design/uwjRZkJ6RNrdwkNk/scene.splinecode"
           /*Para alterar o fundo basta trocar o link a cima por outro do spline*/
           style={{
             width: '100%',

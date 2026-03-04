@@ -40,9 +40,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; /* garante que span e img fiquem empilhados */
   color: #666;
   font-size: 1.1rem;
   border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.photo-placeholder .photo {
+  width: 150px; /* ou 200px se preferir */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;  /* força centralização correta */
+  margin: 0 auto;  /* centraliza horizontalmente */
 }
 
 .info-section {
@@ -163,3 +173,17 @@ margin-top: 3rem;
   object-fit: cover;
 }
 
+.sobre .cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
