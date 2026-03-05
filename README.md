@@ -175,7 +175,7 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
 ## 🚀 Como Executar
 
 ```bash
-npm install @splinetool/react-spline jspdf
+npm install @splinetool/react-spline jspdf @emailjs/browser
 npm run dev
 ```
 
