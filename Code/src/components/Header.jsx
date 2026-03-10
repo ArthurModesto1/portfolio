@@ -4,7 +4,7 @@ import "./Header.css";
 import LanguageSwitcher from "../components/changeLanguage";
 
 function Header() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <header className="header">
       <div className="container">

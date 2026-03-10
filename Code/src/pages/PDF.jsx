@@ -149,7 +149,7 @@ function PDF() {
   return (
     <div className="pdf">
       <div className="container">
-        <h1 className="page-title">Download do Portfólio</h1>
+        <h1 className="page-title">{t("titulo-pdf")}</h1>
 
         <div className="pdf-preview-card">
           <div className="pdf-icon">
@@ -162,10 +162,10 @@ function PDF() {
             </svg>
           </div>
 
-          <h2 className="pdf-subtitle">Baixe seu Portfólio em PDF</h2>
+          <h2 className="pdf-subtitle">{t("titulo2-pdf")}</h2>
 
           <p className="pdf-description">
-            Este documento contém todas as informações do seu portfólio, incluindo:
+            {t("descricao-pdf")}
           </p>
 
           <ul className="pdf-features">
@@ -173,25 +173,25 @@ function PDF() {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>Informações pessoais e descrição</span>
+              <span>{t("info1")}</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>Lista de habilidades técnicas</span>
+              <span>{t("info2")}</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>Experiências profissionais e acadêmicas</span>
+              <span>{t("info3")}</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>Projetos com descrições e links</span>
+              <span>{t("info4")}</span>
             </li>
           </ul>
 

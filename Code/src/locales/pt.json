@@ -32,11 +32,11 @@
   "linguaem-projeto": "Linguagens e Tecnologias: React, Node.js, Express, MongoDB",
   "ver-projeto": "Ver no GitHub",
 
-  "contato-pdf": "Contato",
-  "nome-pdf": "Nome",
-  "email-pdf": "Email",
-  "mensagem-pdf": "Mensagem",
-  "enviar-pdf": "Enviar mensagem",
+  "contato": "Contato",
+  "nome-contato": "Nome",
+  "email-contato": "Email",
+  "mensagem-contato": "Mensagem",
+  "enviar-contato": "Enviar Mensagem",
 
   "contato-footer": "Contato",
   "redes_sociais-footer": "Redes Sociais",
@@ -45,5 +45,13 @@
   "sobremim-header": "Sobre mim",
   "Experiencias-header": "Experiências",
   "projetos-header": "Projetos",
-  "contato-header": "Contato"
+  "contato-header": "Contato",
+
+  "titulo-pdf":"Download do Portfólio",
+  "titulo2-pdf":"Baixe seu Portfólio em PDF",
+  "descricao-pdf":"Este documento fornece uma visão abrangente da minha formação, habilidades e experiências profissionais, destacando minhas qualificações e conquistas na área de engenharia de software.",
+  "info1":"Informações pessoais e descrição",
+  "info2":"Lista de habilidades técnicas",
+  "info3":"Experiências profissionais e acadêmicas",
+  "info4":"Projetos com descrições e links"
 }

@@ -1,12 +1,14 @@
 import './Footer.css';
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
           <div className="contact-info">
-            <h3>Contato</h3>
+            <h3>{t("contato")}</h3>
             <div className="contact-links">
               <a
                 href="https://wa.me/5531900000000" /*Substitua com seu número aqui*/
@@ -36,7 +38,7 @@ function Footer() {
           </div>
 
           <div className="social-links">
-            <h3>Redes Sociais</h3>
+            <h3>{t("redes_sociais-footer")}</h3>
             <div className="social-icons">
               <a
                 href="https://github.com/seuusuario" /*Substitua com seu link para o github aqui*/

@@ -2,7 +2,7 @@ import '../assets/css/Experiencias.css';
 import { useTranslation } from "react-i18next";
 
 function Experiencias() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const experiencias = [
     {
       id: 1,

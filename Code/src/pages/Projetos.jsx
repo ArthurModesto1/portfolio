@@ -1,8 +1,9 @@
 import '../assets/css/Projetos.css';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Projetos() {
-
+  const { t } = useTranslation();
   const [projects , setProjects ] = useState([  ]
 );
 
@@ -21,7 +22,7 @@ function Projetos() {
   return (
     <div className="projetos">
       <div className="container">
-        <h1 className="page-title">Meus Projetos</h1>
+        <h1 className="page-title">{t("projetos")}</h1>
 
         <div className="projects-grid">
           {projects.map((project) => (

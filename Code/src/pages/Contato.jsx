@@ -74,12 +74,12 @@ function Contato() {
   return (
     <div className="contato">
       <div className="container">
-        <h1 className="page-title">{t("Contato")}</h1>
+        <h1 className="page-title">{t("contato")}</h1>
 
         <div className="contact-card">
           <form onSubmit={handleSubmit} className="contact-form">
             <div className="form-group">
-              <label>{t("Nome")}</label>
+              <label>{t("nome-contato")}</label>
               <input
                 type="text"
                 value={nome}
@@ -89,7 +89,7 @@ function Contato() {
             </div>
 
             <div className="form-group">
-              <label>{t("Email")}</label>
+              <label>{t("email-contato")}</label>
               <input
                 type="email"
                 value={email}
@@ -99,7 +99,7 @@ function Contato() {
             </div>
 
             <div className="form-group">
-              <label>{t("Mensagem")}</label>
+              <label>{t("mensagem-contato")}</label>
               <textarea
                 rows="5"
                 value={mensagem}
@@ -109,7 +109,7 @@ function Contato() {
             </div>
 
             <button type="submit" className="submit-button">
-              {t("Enviar mensagem")}
+              {t("enviar-contato")}
             </button>
 
             {status && <p className="form-status">{status}</p>}
