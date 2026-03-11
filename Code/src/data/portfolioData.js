@@ -1,5 +1,5 @@
 export const portfolioData = {
-  name: "Seu Nome",
+  name: "Arthur Modesto",
   about: {
     pt: "Descrição sobre você em português. Conte um pouco sobre sua formação, interesses e experiências acadêmicas ou pessoais.",
     en: "About you in English. Briefly describe your education, interests, and academic or personal experiences."

@@ -1,30 +1,25 @@
 {
-  "titulo-home": "Olá, eu sou [Nome do Autor]",
+  "titulo-home": "Olá, eu sou Arthur Modesto",
   "assunto-home": "Este é um portfólio acadêmico desenvolvido para apresentar projetos, habilidades e experiências adquiridas ao longo da formação em Engenharia de Software.",
   "butao-sobremim": "Sobre mim",
 
   "titulo-sobremim": "Português",
-  "assunto-sobremim": "Este espaço é destinado à apresentação do autor, incluindo sua formação, interesses na área de tecnologia e experiências adquiridas ao longo do curso",
+  "assunto-sobremim": "Meu nome é Arthur Modesto, tenho 20 anos e sou técnico de Redes de Computadores pelo CEFET-MG e atualmente estudante de Engenharia de Software na PUC Minas. Sou apaixonado por tecnologia e desenvolvimento de software. Tenho experiência em diversas linguagens de programação e estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades. Sou dedicado, proativo e gosto de trabalhar em equipe para alcançar resultados excepcionais.",
 
   "habilidade": "Habilidades",
   "habilidade-descricao": "Lista de tecnologias, ferramentas e competências desenvolvidas durante a formação acadêmica e projetos realizados",
   "ver_projetos-descricao":"Ver meus Projetos",
 
   "experiencias": "Experiências",
-  "empresa-experiencias": "Empresa Exemplo",
-  "cargo-experiencias": "Cargo Exemplo",
-  "periodo-experiencias": "Jan 2024 - Atual",
-  "descricao-experiencia": "Descrição breve das responsabilidades e conquistas durante a experiência profissional, destacando habilidades aplicadas e resultados alcançados.",
+  "empresa-experiencias": "Pris Software",
+  "cargo-experiencias": "Analista de Negócios Jr",
+  "periodo-experiencias": "Mai 2025 - Atual",
+  "descricao-experiencia": "Responsável pela atuação em projetos complexos de implantação de sistemas SaaS, conduzindo análises técnicas e funcionais para garantir aderência às necessidades do cliente. Manipulação e interpretação de dados em SQL, descrição detalhada de requisitos de negócio e interface constante com os times de Produto, Desenvolvimento, Qualidade e Vendas. Apoio técnico-conceitual em projetos envolvendo remuneração variável e utilização do sistema, além de revisão, definição e aprimoramento de processos.",
 
-  "empresa-experiencias2": "Empresa Exemplo",
-  "cargo-experiencias2": "Cargo Exemplo",
-  "periodo-experiencias2": "Jan 2024 - Atual",
-  "descricao-experiencia2": "Descrição breve das responsabilidades e conquistas durante a experiência profissional, destacando habilidades aplicadas e resultados alcançados.",
-
-  "empresa-experiencias3": "Empresa Exemplo",
-  "cargo-experiencias3": "Cargo Exemplo",
-  "periodo-experiencias3": "Jan 2024 - Atual",
-  "descricao-experiencia3": "Descrição breve das responsabilidades e conquistas durante a experiência profissional, destacando habilidades aplicadas e resultados alcançados.",
+  "empresa-experiencias2": "Pris Software",
+  "cargo-experiencias2": "Estagiário de Negócios",
+  "periodo-experiencias2": "Set 2024 - Abr 2025",
+  "descricao-experiencia2": "Apoio às atividades de análise de negócios, oferecendo suporte no levantamento e descrição de requisitos, transformando necessidades dos clientes em demandas organizadas para as equipes internas. Suporte no mapeamento de melhorias de processos, elaboração de relatórios e organização de demandas, contribuindo para a evolução do produto e para o alinhamento entre clientes, stakeholders e áreas internas da empresa.",
 
   "projetos": "Meus Projetos",
   "nome-projeto": "Projeto de Desenvolvimento Web",

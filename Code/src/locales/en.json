@@ -1,10 +1,10 @@
 {
-  "titulo-home": "Hello, I am [Author Name]",
+  "titulo-home": "Hello, I am Arthur Modesto",
   "assunto-home": "This is an academic portfolio developed to present projects, skills, and experiences acquired throughout the Software Engineering program.",
   "butao-sobremim": "About Me",
 
   "titulo-sobremim": "English",
-  "assunto-sobremim": "This section is intended to present the author, including their education, interests in the technology field, and experiences acquired during the course.",
+  "assunto-sobremim": "My name is Arthur Modesto, I am 20 years old and I am a Computer Networks technician from CEFET-MG and currently a Software Engineering student at PUC Minas. I am passionate about technology and software development. I have experience in various programming languages and I am always looking to learn new technologies and improve my skills. I am dedicated, proactive, and enjoy working in teams to achieve exceptional results.",
 
   "habilidade": "Skills",
   "habilidade-descricao": "List of technologies, tools, and competencies developed during academic training and completed projects.",
@@ -12,20 +12,15 @@
   "ver_projetos-descricao": "View My Projects",
 
   "experiencias": "Experiences",
-  "empresa-experiencias": "Example Company",
-  "cargo-experiencias": "Example Position",
-  "periodo-experiencias": "Jan 2024 - Present",
-  "descricao-experiencia": "Brief description of responsibilities and achievements during the professional experience, highlighting applied skills and accomplished results.",
+  "empresa-experiencias": "Pris Software",
+  "cargo-experiencias": "Business Analyst Jr",
+  "periodo-experiencias": "May 2025 - Present",
+  "descricao-experiencia": "Responsible for working on complex projects involving the implementation of SaaS systems, conducting technical and functional analyses to ensure alignment with client needs. Handling and interpreting data in SQL, detailed description of business requirements, and constant interface with Product, Development, Quality, and Sales teams. Providing technical-conceptual support on projects involving variable compensation and system usage, as well as reviewing, defining, and improving processes.",
 
-  "empresa-experiencias2": "Example Company",
-  "cargo-experiencias2": "Example Position",
-  "periodo-experiencias2": "Jan 2024 - Present",
-  "descricao-experiencia2": "Brief description of responsibilities and achievements during the professional experience, highlighting applied skills and accomplished results.",
-
-  "empresa-experiencias3": "Example Company",
-  "cargo-experiencias3": "Example Position",
-  "periodo-experiencias3": "Jan 2024 - Present",
-  "descricao-experiencia3": "Brief description of responsibilities and achievements during the professional experience, highlighting applied skills and accomplished results.",
+  "empresa-experiencias2": "Pris Software",
+  "cargo-experiencias2": "Intern - Business Analyst",
+  "periodo-experiencias2": "Sep 2024 - Apr 2025",
+  "descricao-experiencia2": "Supporting business analysis activities, providing assistance in gathering and describing requirements, transforming client needs into organized demands for internal teams. Supporting process improvement mapping, report preparation, and demand organization, contributing to product evolution and alignment between clients, stakeholders, and internal company areas.",
 
   "projetos": "My Projects",
 
