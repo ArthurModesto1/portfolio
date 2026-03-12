@@ -20,7 +20,7 @@ async function getReadmeDescription(owner, repo) {
     if (!data.content) return null;
 
     const decoded = new TextDecoder("utf-8").decode(
-  Uint8Array.from(atob(data.content.replace(/\n/g, "")), c => c.charCodeAt(0)));
+      Uint8Array.from(atob(data.content.replace(/\n/g, "")), c => c.charCodeAt(0)));
     const lines = decoded.split('\n');
 
     const description = lines.find(line =>
@@ -47,13 +47,21 @@ function Projetos() {
 
       try {
 
-        const res = await fetch("https://api.github.com/users/ArthurModesto1/repos?per_page=6&page=1");
+        const res = await fetch(
+          "https://api.github.com/users/ArthurModesto1/repos?per_page=6&page=1",
+          {
+            headers: {
+              Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
+              Accept: "application/vnd.github+json"
+            }
+          }
+        );
         const data = await res.json();
 
         const sorted = data
-        .filter(repo => !repo.private)
-        .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
-        .slice(0, 6); 
+          .filter(repo => !repo.private)
+          .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+          .slice(0, 6);
 
         const projectsWithData = [];
 
@@ -64,12 +72,12 @@ function Projetos() {
 
           try {
             technologies = await getRepoTechnologies(repo.owner.login, repo.name);
-          } catch {}
+          } catch { }
 
           if (!description && repo.size > 0) {
             try {
               description = await getReadmeDescription(repo.owner.login, repo.name);
-            } catch {}
+            } catch { }
           }
 
           projectsWithData.push({
