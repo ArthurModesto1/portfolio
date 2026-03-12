@@ -72,13 +72,10 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
 
 ---
 
-## 👨‍💻 Autores
+## 👨‍💻 Acesse o portfólio
 
-- Arthur Modesto Couto
-- Bernardo Carvalho Denucci Mercado
-- Mateus Azevedo Araújo
-- Matheus Dias Mendes
-  
+https://portfolio-arthurmodesto.vercel.app/
+
 ---
 
 ## 🛠 Tecnologias
