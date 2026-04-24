@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home":       "Início",
+    "about":      "Sobre Mim",
+    "experience": "Experiências",
+    "projects":   "Projetos",
+    "contact":    "Contato"
+  },
+  "hero": {
+    "greeting":  "Olá, eu sou",
+    "roles":     ["Desenvolvedor de Software", "Entusiasta de tecnologia", "Apaixonado por código"],
+    "cta":       "Ver meus projetos",
+    "ctaSub":    "Entre em contato"
+  },
+  "about": {
+    "title":     "Sobre Mim",
+    "bio":       "Sou desenvolvedor de software apaixonado por...",
+    "skills":    "Habilidades",
+    "certs":     "Certificados"
+  },
+  "contact": {
+    "title":     "Entre em Contato",
+    "name":      "Nome",
+    "email":     "Email",
+    "message":   "Mensagem",
+    "send":      "Enviar mensagem",
+    "success":   "Mensagem enviada com sucesso!",
+    "error":     "Erro ao enviar. Tente novamente."
+  }
+}
